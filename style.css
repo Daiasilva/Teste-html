@@ -1,0 +1,116 @@
+/* Regras gerais */
+
+html {
+  font-size: 10px;
+  background-color: #FEEAFA;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+header, nav, main, article, aside, footer {
+  background-color: #f8bcc5;
+  padding: 1%;
+}
+
+/* Tipografia */
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #af3765;
+  text-align: center;
+}
+
+p, li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #e0305c;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px rgb(247, 102, 162);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+td {
+  font-size: 1.5rem;
+}
+
+/* Cabeçalho (header) e menu principal (nav) */
+
+header {
+  margin-bottom: 10px;
+}
+
+nav {
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  flex: 1;
+  text-align: center;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+/* Seção principal (main) */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+    flex: 1;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#img-fundo{
+  width: 500px;
+  height: 600px;
+  border: 1px solid rgb(253, 23, 196);
+  background-image: url("imagens/raposa.jpg");
+}
+
+/* Tabelas */
+
+td {
+  border: 1px solid rgb(243, 0, 142);
+}
